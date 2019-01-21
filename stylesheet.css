@@ -1,0 +1,2666 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f19;
+src:url(fonts/f19.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f4;
+src:url(fonts/f4.ttf)format("truetype");
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+@font-face{
+font-family:f52;
+src:url(fonts/f52.ttf)format("truetype");
+}
+@font-face{
+font-family:f3;
+src:url(fonts/f3.ttf)format("truetype");
+}
+@font-face{
+font-family:f43;
+src:url(fonts/f43.ttf)format("truetype");
+}
+@font-face{
+font-family:f12;
+src:url(fonts/f12.ttf)format("truetype");
+}
+@font-face{
+font-family:f6;
+src:url(fonts/f6.ttf)format("truetype");
+}
+@font-face{
+font-family:f37;
+src:url(fonts/f37.ttf)format("truetype");
+}
+@font-face{
+font-family:f5;
+src:url(fonts/f5.ttf)format("truetype");
+}
+@font-face{
+font-family:f33;
+src:url(fonts/f33.ttf)format("truetype");
+}
+@font-face{
+font-family:f62;
+src:url(fonts/f62.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f47;
+src:url(fonts/f47.ttf)format("truetype");
+}
+@font-face{
+font-family:f14;
+src:url(fonts/f14.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f7;
+src:url(fonts/f7.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f8;
+src:url(fonts/f8.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f27;
+src:url(fonts/f27.ttf)format("truetype");
+}
+@font-face{
+font-family:f103;
+src:url(fonts/f103.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f9;
+src:url(fonts/f9.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f10;
+src:url(fonts/f10.ttf)format("truetype");
+}
+@font-face{
+font-family:f40;
+src:url(fonts/f40.ttf)format("truetype");
+}
+@font-face{
+font-family:f11;
+src:url(fonts/f11.ttf)format("truetype");
+}
+@font-face{
+font-family:f57;
+src:url(fonts/f57.ttf)format("truetype");
+}
+@font-face{
+font-family:f44;
+src:url(fonts/f44.ttf)format("truetype");
+}
+@font-face{
+font-family:f13;
+src:url(fonts/f13.ttf)format("truetype");
+}
+@font-face{
+font-family:f68;
+src:url(fonts/f68.ttf)format("truetype");
+}
+@font-face{
+font-family:f15;
+src:url(fonts/f15.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f65;
+src:url(fonts/f65.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f16;
+src:url(fonts/f16.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f17;
+src:url(fonts/f17.ttf)format("truetype");
+}
+@font-face{
+font-family:f29;
+src:url(fonts/f29.ttf)format("truetype");
+}
+@font-face{
+font-family:f92;
+src:url(fonts/f92.ttf)format("truetype");
+}
+@font-face{
+font-family:f22;
+src:url(fonts/f22.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f18;
+src:url(fonts/f18.ttf)format("truetype");
+}
+@font-face{
+font-family:f20;
+src:url(fonts/f20.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f21;
+src:url(fonts/f21.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f23;
+src:url(fonts/f23.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f24;
+src:url(fonts/f24.ttf)format("truetype");
+}
+@font-face{
+font-family:f25;
+src:url(fonts/f25.ttf)format("truetype");
+}
+@font-face{
+font-family:f26;
+src:url(fonts/f26.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f28;
+src:url(fonts/f28.ttf)format("truetype");
+}
+@font-face{
+font-family:f49;
+src:url(fonts/f49.ttf)format("truetype");
+}
+@font-face{
+font-family:f30;
+src:url(fonts/f30.ttf)format("truetype");
+}
+@font-face{
+font-family:f31;
+src:url(fonts/f31.ttf)format("truetype");
+}
+@font-face{
+font-family:f35;
+src:url(fonts/f35.ttf)format("truetype");
+}
+@font-face{
+font-family:f32;
+src:url(fonts/f32.ttf)format("truetype");
+}
+@font-face{
+font-family:f34;
+src:url(fonts/f34.ttf)format("truetype");
+}
+@font-face{
+font-family:f98;
+src:url(fonts/f98.ttf)format("truetype");
+}
+@font-face{
+font-family:f71;
+src:url(fonts/f71.ttf)format("truetype");
+}
+@font-face{
+font-family:f36;
+src:url(fonts/f36.ttf)format("truetype");
+}
+@font-face{
+font-family:f38;
+src:url(fonts/f38.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f59;
+src:url(fonts/f59.ttf)format("truetype");
+}
+@font-face{
+font-family:f51;
+src:url(fonts/f51.ttf)format("truetype");
+}
+@font-face{
+font-family:f39;
+src:url(fonts/f39.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f61;
+src:url(fonts/f61.ttf)format("truetype");
+}
+@font-face{
+font-family:f41;
+src:url(fonts/f41.ttf)format("truetype");
+}
+@font-face{
+font-family:f42;
+src:url(fonts/f42.ttf)format("truetype");
+}
+@font-face{
+font-family:f45;
+src:url(fonts/f45.ttf)format("truetype");
+}
+@font-face{
+font-family:f46;
+src:url(fonts/f46.ttf)format("truetype");
+}
+@font-face{
+font-family:f48;
+src:url(fonts/f48.ttf)format("truetype");
+}
+@font-face{
+font-family:f50;
+src:url(fonts/f50.ttf)format("truetype");
+}
+@font-face{
+font-family:f53;
+src:url(fonts/f53.ttf)format("truetype");
+}
+@font-face{
+font-family:f54;
+src:url(fonts/f54.ttf)format("truetype");
+}
+@font-face{
+font-family:f55;
+src:url(fonts/f55.ttf)format("truetype");
+}
+@font-face{
+font-family:f56;
+src:url(fonts/f56.ttf)format("truetype");
+}
+@font-face{
+font-family:f58;
+src:url(fonts/f58.ttf)format("truetype");
+}
+@font-face{
+font-family:f87;
+src:url(fonts/f87.ttf)format("truetype");
+}
+@font-face{
+font-family:f60;
+src:url(fonts/f60.ttf)format("truetype");
+}
+@font-face{
+font-family:f63;
+src:url(fonts/f63.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f81;
+src:url(fonts/f81.ttf)format("truetype");
+}
+@font-face{
+font-family:f64;
+src:url(fonts/f64.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f66;
+src:url(fonts/f66.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f67;
+src:url(fonts/f67.ttf)format("truetype");
+}
+@font-face{
+font-family:f69;
+src:url(fonts/f69.ttf)format("truetype");
+}
+@font-face{
+font-family:f70;
+src:url(fonts/f70.ttf)format("truetype");
+}
+@font-face{
+font-family:f72;
+src:url(fonts/f72.ttf)format("truetype");
+}
+@font-face{
+font-family:f73;
+src:url(fonts/f73.ttf)format("truetype");
+}
+@font-face{
+font-family:f74;
+src:url(fonts/f74.ttf)format("truetype");
+}
+@font-face{
+font-family:f75;
+src:url(fonts/f75.ttf)format("truetype");
+}
+@font-face{
+font-family:f96;
+src:url(fonts/f96.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f76;
+src:url(fonts/f76.ttf)format("truetype");
+}
+@font-face{
+font-family:f77;
+src:url(fonts/f77.ttf)format("truetype");
+}
+@font-face{
+font-family:f78;
+src:url(fonts/f78.ttf)format("truetype");
+}
+@font-face{
+font-family:f79;
+src:url(fonts/f79.ttf)format("truetype");
+}
+@font-face{
+font-family:f80;
+src:url(fonts/f80.ttf)format("truetype");
+}
+@font-face{
+font-family:f82;
+src:url(fonts/f82.ttf)format("truetype");
+}
+@font-face{
+font-family:f83;
+src:url(fonts/f83.ttf)format("truetype");
+}
+@font-face{
+font-family:f84;
+src:url(fonts/f84.ttf)format("truetype");
+}
+@font-face{
+font-family:f85;
+src:url(fonts/f85.ttf)format("truetype");
+}
+@font-face{
+font-family:f86;
+src:url(fonts/f86.ttf)format("truetype");
+}
+@font-face{
+font-family:f88;
+src:url(fonts/f88.ttf)format("truetype");
+}
+@font-face{
+font-family:f89;
+src:url(fonts/f89.ttf)format("truetype");
+}
+@font-face{
+font-family:f90;
+src:url(fonts/f90.ttf)format("truetype");
+}
+@font-face{
+font-family:f91;
+src:url(fonts/f91.ttf)format("truetype");
+}
+@font-face{
+font-family:f93;
+src:url(fonts/f93.ttf)format("truetype");
+}
+@font-face{
+font-family:f94;
+src:url(fonts/f94.ttf)format("truetype");
+}
+@font-face{
+font-family:f95;
+src:url(fonts/f95.ttf)format("truetype");
+}
+@font-face{
+font-family:f97;
+src:url(fonts/f97.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f99;
+src:url(fonts/f99.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f100;
+src:url(fonts/f100.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f101;
+src:url(fonts/f101.ttf)format("truetype");
+}
+@font-face{
+font-family:f102;
+src:url(fonts/f102.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f104;
+src:url(fonts/f104.ttf)format("truetype");
+font-style: italic;
+}
+@font-face{
+font-family:f105;
+src:url(fonts/f105.ttf)format("truetype");
+}
+@font-face{
+font-family:f106;
+src:url(fonts/f106.ttf)format("truetype");
+}
+@font-face{
+font-family:f107;
+src:url(fonts/f107.ttf)format("truetype");
+}
+@font-face{
+font-family:f108;
+src:url(fonts/f108.ttf)format("truetype");
+}
+.style190{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+vertical-align: sub;
+font-family:Avenir, f0, sans-serif;
+font-style: italic;
+}
+.style189{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f1, sans-serif;
+}
+.style188{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f1, sans-serif;
+}
+.style187{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f2, sans-serif;
+}
+.style17{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f3, sans-serif;
+}
+.style18{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f4, sans-serif;
+}
+.style19{
+font-size:7.75pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f5, sans-serif;
+}
+.style0{
+font-size:9.45004pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style284{
+font-size:7.92pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f7, sans-serif;
+font-style: italic;
+}
+.style229{
+font-size:7.92pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f5, sans-serif;
+}
+.style228{
+font-size:7.92pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f4, sans-serif;
+}
+.style8{
+font-size:7.92pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f8, sans-serif;
+font-style: italic;
+}
+.style9{
+font-size:7.92pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f9, sans-serif;
+font-style: italic;
+}
+.style44{
+font-size:1.4607pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f10, sans-serif;
+}
+.style302{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f11, sans-serif;
+}
+.style292{
+font-size:8pt;
+color:rgba(234,224,211,1.00);
+font-family:Avenir, f12, sans-serif;
+}
+.style291{
+font-size:8pt;
+color:rgba(255,255,255,1.00);
+font-family:Avenir, f12, sans-serif;
+}
+.style290{
+font-size:8pt;
+color:rgba(234,224,211,1.00);
+font-family:Avenir, f13, sans-serif;
+}
+.style289{
+font-size:8pt;
+color:rgba(255,255,255,1.00);
+font-family:Avenir, f13, sans-serif;
+}
+.style287{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f14, sans-serif;
+font-style: italic;
+}
+.style286{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f7, sans-serif;
+font-style: italic;
+}
+.style285{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f15, sans-serif;
+font-style: italic;
+}
+.style235{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f16, sans-serif;
+font-style: italic;
+}
+.style234{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f17, sans-serif;
+}
+.style233{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f18, sans-serif;
+}
+.style232{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f19, sans-serif;
+font-style: italic;
+}
+.style231{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f20, sans-serif;
+font-style: italic;
+}
+.style230{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f21, sans-serif;
+font-style: italic;
+}
+.style227{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f11, sans-serif;
+}
+.style226{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f5, sans-serif;
+}
+.style7{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f9, sans-serif;
+font-style: italic;
+}
+.style6{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f5, sans-serif;
+}
+.style5{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f8, sans-serif;
+font-style: italic;
+}
+.style4{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f4, sans-serif;
+}
+.style3{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f4, sans-serif;
+}
+.style12{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f3, sans-serif;
+}
+.style13{
+font-size:8pt;
+color:rgba(186,20,27,1.00);
+font-family:Avenir, f3, sans-serif;
+}
+.style294{
+font-size:7.68pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f17, sans-serif;
+}
+.style10{
+font-size:16pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style11{
+font-size:16pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+text-decoration: underline;
+}
+.style2{
+font-size:20pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+text-decoration: underline;
+}
+.style1{
+font-size:20pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style224{
+font-size:7pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f22, sans-serif;
+font-style: italic;
+}
+.style14{
+font-size:7pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f23, sans-serif;
+font-style: italic;
+}
+.style15{
+font-size:7pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f24, sans-serif;
+}
+.style21{
+font-size:7pt;
+color:rgba(255,255,255,1.00);
+font-family:Avenir, f23, sans-serif;
+font-style: italic;
+}
+.style91{
+font-size:25pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style16{
+font-size:25pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+text-decoration: underline;
+}
+.style301{
+font-size:18pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+text-decoration: underline;
+}
+.style300{
+font-size:18pt;
+color:rgba(66,68,58,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style299{
+font-size:18pt;
+color:rgba(186,20,27,1.00);
+font-family:TeutonFett, f6, sans-serif;
+text-decoration: underline;
+}
+.style298{
+font-size:18pt;
+color:rgba(186,20,27,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style288{
+font-size:14pt;
+color:rgba(255,255,255,1.00);
+font-family:Avenir, f25, sans-serif;
+}
+.style236{
+font-size:14pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f23, sans-serif;
+font-style: italic;
+}
+.style212{
+font-size:1.2034pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f26, sans-serif;
+font-style: italic;
+}
+.style20{
+font-size:14pt;
+color:rgba(232,158,58,1.00);
+font-family:Avenir, f27, sans-serif;
+}
+.style158{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f28, sans-serif;
+}
+.style157{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f29, sans-serif;
+}
+.style144{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f1, sans-serif;
+}
+.style143{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f2, sans-serif;
+}
+.style119{
+font-size:2.5157pt;
+color:rgba(247,156,33,1.00);
+font-family:KeyForgeIcons, f30, sans-serif;
+}
+.style118{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f31, sans-serif;
+}
+.style106{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f0, sans-serif;
+font-style: italic;
+}
+.style105{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f32, sans-serif;
+}
+.style104{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f33, sans-serif;
+}
+.style22{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f34, sans-serif;
+}
+.style23{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f35, sans-serif;
+}
+.style39{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f36, sans-serif;
+}
+.style40{
+font-size:2.5157pt;
+color:rgba(239,55,35,1.00);
+font-family:KeyForgeIcons, f37, sans-serif;
+}
+.style41{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f38, sans-serif;
+font-style: italic;
+}
+.style42{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f39, sans-serif;
+font-style: italic;
+}
+.style54{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f40, sans-serif;
+}
+.style55{
+font-size:2.5157pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f41, sans-serif;
+}
+.style56{
+font-size:2.5157pt;
+color:rgba(247,156,33,1.00);
+font-family:KeyForgeIcons, f42, sans-serif;
+}
+.style154{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style153{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style152{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style151{
+font-size:4.05765pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style150{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style140{
+font-size:4.05762pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style139{
+font-size:4.0576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style138{
+font-size:4.05758pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style137{
+font-size:4.0576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style136{
+font-size:4.05758pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style135{
+font-size:4.0576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style134{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style133{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style132{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style131{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style130{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style129{
+font-size:4.05757pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style128{
+font-size:4.05758pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style127{
+font-size:4.05757pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style126{
+font-size:4.05765pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style125{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style124{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style115{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style114{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style113{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style112{
+font-size:4.05765pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style111{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style101{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style100{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style99{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style98{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style97{
+font-size:4.05765pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style96{
+font-size:4.05757pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style95{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style94{
+font-size:4.05756pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style93{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style24{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f47, sans-serif;
+}
+.style25{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style26{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style27{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style28{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style29{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style30{
+font-size:4.05756pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style31{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f48, sans-serif;
+}
+.style33{
+font-size:4.05759pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f49, sans-serif;
+}
+.style34{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f49, sans-serif;
+}
+.style35{
+font-size:4.05755pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f49, sans-serif;
+}
+.style48{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f47, sans-serif;
+}
+.style49{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f47, sans-serif;
+}
+.style50{
+font-size:4.05763pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f47, sans-serif;
+}
+.style58{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style59{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style60{
+font-size:4.05753pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style61{
+font-size:4.05756pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style62{
+font-size:4.05753pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style63{
+font-size:4.05754pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style64{
+font-size:4.05761pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style160{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f43, sans-serif;
+}
+.style146{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style121{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f45, sans-serif;
+}
+.style108{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f46, sans-serif;
+}
+.style45{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f49, sans-serif;
+}
+.style53{
+font-size:1.6961pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f50, sans-serif;
+}
+.style155{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f51, sans-serif;
+}
+.style149{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f51, sans-serif;
+}
+.style102{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f52, sans-serif;
+}
+.style92{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f52, sans-serif;
+}
+.style32{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f53, sans-serif;
+}
+.style37{
+font-size:7.1414pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f53, sans-serif;
+}
+.style141{
+font-size:2.0288pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f54, sans-serif;
+}
+.style36{
+font-size:2.0288pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f55, sans-serif;
+}
+.style57{
+font-size:2.02882pt;
+color:rgba(255,255,255,1.00);
+font-family:AvenirNextCondensed, f56, sans-serif;
+}
+.style156{
+font-size:2.4346pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f57, sans-serif;
+}
+.style142{
+font-size:2.4346pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f58, sans-serif;
+}
+.style116{
+font-size:2.4346pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f59, sans-serif;
+}
+.style103{
+font-size:2.4346pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f60, sans-serif;
+}
+.style38{
+font-size:2.4346pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f61, sans-serif;
+}
+.style159{
+font-size:1.9476pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f62, sans-serif;
+font-style: italic;
+}
+.style145{
+font-size:1.9476pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f63, sans-serif;
+font-style: italic;
+}
+.style120{
+font-size:1.9476pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f64, sans-serif;
+font-style: italic;
+}
+.style107{
+font-size:1.9476pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f65, sans-serif;
+font-style: italic;
+}
+.style43{
+font-size:1.9476pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f66, sans-serif;
+font-style: italic;
+}
+.style162{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f67, sans-serif;
+}
+.style161{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f57, sans-serif;
+}
+.style148{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f68, sans-serif;
+}
+.style147{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f58, sans-serif;
+}
+.style123{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f69, sans-serif;
+}
+.style122{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f59, sans-serif;
+}
+.style117{
+font-size:1.623pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f70, sans-serif;
+}
+.style110{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f71, sans-serif;
+}
+.style109{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f60, sans-serif;
+}
+.style46{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f61, sans-serif;
+}
+.style47{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f72, sans-serif;
+}
+.style51{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f73, sans-serif;
+}
+.style52{
+font-size:1.623pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f74, sans-serif;
+}
+.style88{
+font-size:3.31502pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style86{
+font-size:3.31509pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style85{
+font-size:3.31502pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style83{
+font-size:3.315pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style81{
+font-size:3.31509pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style79{
+font-size:3.31507pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style78{
+font-size:3.31509pt;
+color:rgba(0,0,0,1.00);
+vertical-align: sub;
+font-family:TeutonFett, f75, sans-serif;
+}
+.style77{
+font-size:3.31509pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style75{
+font-size:3.31506pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style74{
+font-size:3.3151pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style71{
+font-size:3.31505pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style70{
+font-size:3.31504pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style67{
+font-size:3.31509pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style65{
+font-size:3.31508pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f75, sans-serif;
+}
+.style90{
+font-size:3.31674pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style89{
+font-size:3.31562pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style87{
+font-size:3.31517pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style84{
+font-size:3.31518pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style82{
+font-size:3.31525pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style80{
+font-size:3.3154pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style76{
+font-size:3.3158pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style73{
+font-size:3.31506pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style72{
+font-size:3.31513pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style69{
+font-size:3.31596pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style68{
+font-size:3.31618pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style66{
+font-size:3.31648pt;
+color:rgba(0,0,0,1.00);
+font-family:TeutonFett, f76, sans-serif;
+}
+.style176{
+font-size:3.24603pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style175{
+font-size:3.24603pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style174{
+font-size:3.24606pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style173{
+font-size:3.24605pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style172{
+font-size:3.24605pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style171{
+font-size:3.2461pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style170{
+font-size:3.2461pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style169{
+font-size:3.24603pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style168{
+font-size:3.24603pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style167{
+font-size:3.24609pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style166{
+font-size:3.24604pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style165{
+font-size:3.24603pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style164{
+font-size:3.24608pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style163{
+font-size:3.2461pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style184{
+font-size:2.10989pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style183{
+font-size:2.10989pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style182{
+font-size:2.10994pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style181{
+font-size:2.10996pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style180{
+font-size:2.10997pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style179{
+font-size:2.10989pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style178{
+font-size:2.10989pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style177{
+font-size:2.10992pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f77, sans-serif;
+}
+.style225{
+font-size:10pt;
+color:rgba(186,20,27,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style185{
+font-size:10pt;
+color:rgba(49,107,179,1.00);
+font-family:TeutonFett, f6, sans-serif;
+}
+.style186{
+font-size:7.5pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f58, sans-serif;
+}
+.style297{
+font-size:6pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f8, sans-serif;
+font-style: italic;
+}
+.style296{
+font-size:6pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f4, sans-serif;
+}
+.style191{
+font-size:6pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f63, sans-serif;
+font-style: italic;
+}
+.style192{
+font-size:4.5pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f10, sans-serif;
+}
+.style193{
+font-size:5.225pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f44, sans-serif;
+}
+.style204{
+font-size:6.24993pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style203{
+font-size:6.24996pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style202{
+font-size:6.24995pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style201{
+font-size:6.24995pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style200{
+font-size:6.24993pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style199{
+font-size:6.24998pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style198{
+font-size:6.24993pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style197{
+font-size:6.24993pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style196{
+font-size:6.24996pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style195{
+font-size:6.25001pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style194{
+font-size:6.24998pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f78, sans-serif;
+}
+.style205{
+font-size:3.125pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:AvenirNextCondensed, f79, sans-serif;
+}
+.style217{
+font-size:4.4123pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f80, sans-serif;
+}
+.style216{
+font-size:4.4123pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f80, sans-serif;
+}
+.style207{
+font-size:4.4123pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f52, sans-serif;
+}
+.style206{
+font-size:4.4123pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f52, sans-serif;
+}
+.style218{
+font-size:1.5042pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f81, sans-serif;
+}
+.style208{
+font-size:1.5042pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f82, sans-serif;
+}
+.style220{
+font-size:1.5543pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f83, sans-serif;
+}
+.style219{
+font-size:1.5543pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f84, sans-serif;
+}
+.style211{
+font-size:1.5543pt;
+color:rgba(247,156,33,1.00);
+font-family:KeyForgeIcons, f30, sans-serif;
+}
+.style210{
+font-size:1.5543pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f85, sans-serif;
+}
+.style209{
+font-size:1.5543pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f86, sans-serif;
+}
+.style221{
+font-size:1.0479pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f87, sans-serif;
+}
+.style213{
+font-size:1.0479pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f88, sans-serif;
+}
+.style223{
+font-size:1.0028pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f89, sans-serif;
+}
+.style222{
+font-size:1.0028pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f81, sans-serif;
+}
+.style215{
+font-size:1.0028pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f90, sans-serif;
+}
+.style214{
+font-size:1.0028pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f82, sans-serif;
+}
+.style265{
+font-size:5.5154pt;
+color:rgba(255,255,255,1.00);
+font-family:Bombardier, f80, sans-serif;
+}
+.style264{
+font-size:5.5154pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f80, sans-serif;
+}
+.style237{
+font-size:5.5154pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.50);
+font-family:Bombardier, f91, sans-serif;
+}
+.style266{
+font-size:1.8803pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f92, sans-serif;
+}
+.style238{
+font-size:1.8803pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f93, sans-serif;
+}
+.style274{
+font-size:1.2535pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f94, sans-serif;
+}
+.style273{
+font-size:1.2535pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f92, sans-serif;
+}
+.style248{
+font-size:1.2535pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:Avenir, f95, sans-serif;
+}
+.style247{
+font-size:1.2535pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f93, sans-serif;
+}
+.style239{
+font-size:1.2535pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNextCondensed, f70, sans-serif;
+}
+.style270{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f86, sans-serif;
+}
+.style269{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f96, sans-serif;
+font-style: italic;
+}
+.style268{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f97, sans-serif;
+font-style: italic;
+}
+.style267{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f98, sans-serif;
+}
+.style242{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f99, sans-serif;
+font-style: italic;
+}
+.style241{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f100, sans-serif;
+font-style: italic;
+}
+.style240{
+font-size:1.9429pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f101, sans-serif;
+}
+.style271{
+font-size:1.5042pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f102, sans-serif;
+font-style: italic;
+}
+.style244{
+font-size:1.5042pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f103, sans-serif;
+font-style: italic;
+}
+.style243{
+font-size:1.5042pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f104, sans-serif;
+font-style: italic;
+}
+.style245{
+font-size:1.1282pt;
+color:rgba(35,31,32,1.00);
+font-family:Avenir, f10, sans-serif;
+}
+.style272{
+font-size:1.3099pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style246{
+font-size:1.3099pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style261{
+font-size:3.13372pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style257{
+font-size:3.13375pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style256{
+font-size:3.13371pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style255{
+font-size:3.13373pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style254{
+font-size:3.1338pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style253{
+font-size:3.13375pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style252{
+font-size:3.13381pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style251{
+font-size:3.1338pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style250{
+font-size:3.1338pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style249{
+font-size:3.13377pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f106, sans-serif;
+}
+.style258{
+font-size:1.5669pt;
+color:rgba(255,255,255,1.00);
+background-color:rgba(35,31,32,0.33);
+font-family:AvenirNextCondensed, f107, sans-serif;
+}
+.style282{
+font-size:2.94574pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style281{
+font-size:2.94579pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style280{
+font-size:2.94577pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style279{
+font-size:2.94571pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style278{
+font-size:2.94578pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style277{
+font-size:2.94576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style276{
+font-size:2.9457pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style275{
+font-size:2.94578pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style263{
+font-size:2.94576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style262{
+font-size:2.94572pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style260{
+font-size:2.94576pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style259{
+font-size:2.94574pt;
+color:rgba(255,255,255,1.00);
+font-family:TeutonFett, f105, sans-serif;
+}
+.style283{
+font-size:8.08pt;
+color:rgba(35,31,32,1.00);
+font-family:AvenirNext, f17, sans-serif;
+}
+.style295{
+font-size:9pt;
+color:rgba(35,31,32,1.00);
+font-family:Arial, f108, sans-serif;
+}
+.style293{
+font-size:9pt;
+color:rgba(66,68,58,1.00);
+font-family:Avenir, f16, sans-serif;
+font-style: italic;
+}
+.p_style98{
+text-align:left;
+margin-left:0.12pt;
+
+}
+.p_style95{
+text-align:left;
+margin-left:24.16pt;
+
+}
+.p_style94{
+text-align:left;
+line-height:13.6pt;
+}
+.p_style91{
+text-align:left;
+margin-left:79pt;
+line-height:9.6pt;
+}
+.p_style90{
+text-align:left;
+margin-left:94pt;
+line-height:9.6pt;
+}
+.p_style88{
+text-align:left;
+margin-left:61pt;
+line-height:9.6pt;
+}
+.p_style85{
+text-indent:4pt;
+text-align:left;
+margin-left:42pt;
+line-height:9.6pt;
+}
+.p_style84{
+text-align:left;
+margin-left:45pt;
+
+}
+.p_style83{
+text-align:left;
+margin-left:18pt;
+line-height:9.6pt;
+}
+.p_style82{
+text-align:left;
+margin-left:141.95pt;
+
+}
+.p_style81{
+text-align:left;
+margin-left:96.65pt;
+
+}
+.p_style80{
+text-align:left;
+margin-left:169.32pt;
+
+}
+.p_style79{
+text-align:left;
+margin-left:68.21pt;
+
+}
+.p_style77{
+text-align:left;
+margin-left:43pt;
+line-height:9.6pt;
+}
+.p_style75{
+text-align:left;
+line-height:9.6pt;
+}
+.p_style71{
+text-align:left;
+margin-left:107.36pt;
+
+}
+.p_style70{
+text-align:left;
+margin-left:108.07pt;
+
+}
+.p_style69{
+text-align:left;
+margin-left:107.31pt;
+
+}
+.p_style68{
+text-align:left;
+margin-left:108.96pt;
+
+}
+.p_style67{
+text-align:left;
+margin-left:106.42pt;
+
+}
+.p_style66{
+text-align:left;
+margin-left:48.96pt;
+
+}
+.p_style65{
+text-align:left;
+margin-left:4.35pt;
+
+}
+.p_style4{
+text-align:center;
+
+}
+.p_style0{
+text-align:left;
+
+}
+.p_style27{
+text-align:left;
+line-height:19.2pt;
+}
+.p_style28{
+text-align:left;
+margin-left:0.07pt;
+
+}
+.p_style30{
+text-align:left;
+margin-left:13.5pt;
+
+}
+.p_style34{
+text-align:left;
+margin-left:0.06pt;
+
+}
+.p_style35{
+text-align:left;
+margin-left:116.62pt;
+
+}
+.p_style49{
+text-align:left;
+margin-left:13.57pt;
+
+}
+.p_style50{
+text-align:left;
+margin-left:0.11pt;
+
+}
+.p_style53{
+text-align:left;
+margin-left:58.5pt;
+
+}
+.p_style56{
+text-align:left;
+margin-left:18pt;
+
+}
+.p_style59{
+text-align:left;
+margin-left:3.08pt;
+
+}
+.p_style62{
+text-align:right;
+
+}
+.p_style96{
+text-align:left;
+line-height:8pt;
+}
+.p_style8{
+text-align:left;
+line-height:9.5pt;
+}
+.p_style1{
+text-align:left;
+line-height:10pt;
+}
+.p_style23{
+text-align:center;
+
+}
+.p_style24{
+text-align:left;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style25{
+text-align:justify;
+line-height:10pt;
+}
+.p_style26{
+text-align:left;
+margin-left:13.5pt;
+line-height:10pt;
+}
+.p_style29{
+text-align:justify;
+margin-left:13.5pt;
+line-height:10pt;
+}
+.p_style33{
+text-align:center;
+line-height:8.5pt;
+}
+.p_style38{
+text-align:left;
+margin-left:3.51pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style39{
+text-align:left;
+margin-left:29.96pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style40{
+text-align:left;
+margin-left:16.17pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style41{
+text-align:left;
+margin-left:3.77pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style42{
+text-align:left;
+margin-left:10.25pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style43{
+text-align:left;
+margin-left:19.86pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style44{
+text-align:left;
+margin-left:1.55301pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style45{
+text-align:left;
+margin-left:12.46pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style46{
+text-align:left;
+margin-left:3.56pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style47{
+text-align:left;
+margin-left:15.65pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style48{
+text-align:left;
+margin-left:1.553pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style54{
+text-align:left;
+margin-left:58.5pt;
+line-height:10pt;
+}
+.p_style55{
+text-align:left;
+margin-left:9pt;
+line-height:10pt;
+}
+.p_style57{
+text-align:left;
+margin-left:18pt;
+line-height:10pt;
+}
+.p_style58{
+text-align:left;
+line-height:11pt;
+}
+.p_style3{
+text-align:center;
+
+}
+.p_style18{
+text-align:center;
+
+}
+.p_style87{
+text-align:justify;
+line-height:9.595pt;
+}
+.p_style78{
+text-align:left;
+margin-left:51pt;
+line-height:9.595pt;
+}
+.p_style74{
+text-align:left;
+line-height:9.595pt;
+}
+.p_style2{
+text-align:left;
+line-height:13.595pt;
+}
+.p_style9{
+text-align:left;
+line-height:19.19pt;
+}
+.p_style32{
+text-align:center;
+line-height:7.2pt;
+}
+.p_style5{
+text-align:center;
+
+}
+.p_style7{
+text-align:center;
+
+}
+.p_style6{
+text-align:center;
+
+}
+.p_style10{
+text-align:center;
+line-height:3.08pt;
+}
+.p_style60{
+text-align:left;
+line-height:2.33pt;
+}
+.p_style72{
+text-align:center;
+
+}
+.p_style11{
+text-align:center;
+
+}
+.p_style12{
+text-align:left;
+line-height:3.01pt;
+}
+.p_style17{
+text-align:justify;
+line-height:3.01pt;
+}
+.p_style13{
+text-align:right;
+line-height:2.28pt;
+}
+.p_style14{
+text-align:center;
+line-height:0.81pt;
+}
+.p_style15{
+text-indent:1.55pt;
+text-align:left;
+line-height:0.68pt;
+}
+.p_style22{
+text-align:center;
+line-height:2.33pt;
+}
+.p_style16{
+text-indent:0.89pt;
+text-align:left;
+line-height:1.18pt;
+}
+.p_style19{
+text-indent:2.06pt;
+text-align:left;
+line-height:2.33pt;
+}
+.p_style20{
+text-align:center;
+
+}
+.p_style21{
+text-align:center;
+
+}
+.p_style31{
+text-align:left;
+line-height:8.94pt;
+}
+.p_style36{
+text-align:right;
+margin-right:147.28pt;
+
+}
+.p_style63{
+text-align:center;
+
+}
+.p_style37{
+text-align:right;
+margin-right:22.33pt;
+
+}
+.p_style93{
+text-align:left;
+line-height:13.59pt;
+}
+.p_style76{
+text-align:left;
+margin-left:20pt;
+line-height:9.59pt;
+}
+.p_style51{
+text-align:left;
+line-height:9.59pt;
+}
+.p_style52{
+text-align:center;
+
+}
+.p_style61{
+text-align:left;
+margin-left:1.05pt;
+line-height:1.8pt;
+}
+.p_style64{
+text-align:right;
+line-height:5.33pt;
+}
+.p_style73{
+text-align:center;
+line-height:8.5pt;
+}
+.p_style86{
+text-align:left;
+line-height:9.795pt;
+}
+.p_style89{
+text-align:right;
+margin-right:119.48pt;
+
+}
+.p_style92{
+text-align:right;
+margin-right:205.09pt;
+
+}
+.p_style97{
+text-align:justify;
+line-height:7.19pt;
+}
+.p_style99{
+text-align:left;
+line-height:9.99pt;
+}
+.strikethroughStyle_ff42443a{
+text-decoration: line-through;
+color:rgba(66,68,58,1.00);
+}
+.layout_style11{
+display: inline-block;
+}
+.layout_style0{
+}
+.layout_style4{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style2{
+display: inline-block;
+}
+.layout_style28{
+}
+.layout_style5{
+background-color: rgba(35,31,32,0.50);
+}
+.layout_style1{
+}
+.layout_style17{
+}
+.layout_style3{
+}
+.layout_style6{
+background-color: rgba(35,31,32,0.50);
+}
+.layout_style7{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style8{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style9{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style25{
+background-color: rgba(35,31,32,0.50);
+}
+.layout_style10{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style12{
+display: inline-block;
+}
+.layout_style27{
+background-color: rgba(255,255,255,0.60);
+}
+.layout_style13{
+}
+.layout_style14{
+display: inline-block;
+}
+.layout_style15{
+}
+.layout_style16{
+}
+.layout_style31{
+}
+.layout_style18{
+}
+.layout_style23{
+background-color: rgba(35,31,32,0.50);
+}
+.layout_style19{
+}
+.layout_style20{
+}
+.layout_style21{
+}
+.layout_style22{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style24{
+background-color: rgba(145,143,143,1.00);
+}
+.layout_style26{
+}
+.layout_style29{
+}
+.layout_style30{
+}
+.layout_style32{
+}
+.layout_style33{
+}
+table#bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table#bordered th{
+border: 1px solid black;
+}
+table#bordered td{
+border: 1px solid black;
+}
+table#bordered td#borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table#borderless {
+border: none;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
